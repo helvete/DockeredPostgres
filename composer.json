@@ -1,0 +1,10 @@
+{
+	"name": "helvete/DockeredPostgres",
+	"type": "docker-library",
+	"description": "PostgreSQL server dockerized within an Alpine image",
+	"authors": [
+		{
+			"name": "helvete"
+		}
+	]
+}
