@@ -1,4 +1,4 @@
-# Dockered PosgreSQL database
+# Dockered PostgreSQL database
 
 * Simple integration container
 * To be used in coop w/ other containers
