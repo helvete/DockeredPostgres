@@ -1,6 +1,6 @@
-version: '2'
+version: '3.5'
 services:
-  db:
+  postgres:
     build:
       context: .
       dockerfile: Dockerfile
@@ -11,5 +11,12 @@ services:
       - "5432"
     volumes:
       - database:/var/lib/postgresql
+    networks:
+      - postgres95-network
+    container_name: "postgres_95"
 volumes:
   database:
+networks:
+  postgres95-network:
+    external: false
+    name: postgres95-network
