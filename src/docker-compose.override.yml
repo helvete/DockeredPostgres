@@ -3,3 +3,5 @@ services:
   postgres:
     ports:
       - "5431:5432"
+    volumes:
+      - $PWD:/tmp/data
