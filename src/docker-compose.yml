@@ -12,11 +12,11 @@ services:
     volumes:
       - database:/var/lib/postgresql
     networks:
-      - postgres95-network
-    container_name: "postgres_95"
+      - postgres-network
+    container_name: "postgres_10"
 volumes:
   database:
 networks:
-  postgres95-network:
+  postgres-network:
     external: false
-    name: postgres95-network
+    name: postgres-network

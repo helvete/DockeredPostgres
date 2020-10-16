@@ -1,4 +1,4 @@
-FROM postgres:9.5-alpine
+FROM postgres:10-alpine
 
 ENV LANG cs_CZ.utf8
 ENV TZ='Europe/Prague'
